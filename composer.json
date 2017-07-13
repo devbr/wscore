@@ -25,6 +25,18 @@
             "Config\\": ".php/Config/"
         }
     },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload-dev": {
+        "classmap": [
+            ".php/Tests/StackTest.php"
+        ]
+    },
+
+
     "scripts": {
         "post-create-project-cmd":  ["php index.php key:generate"],
         "run":                      ["php index.php"]
