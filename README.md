@@ -10,7 +10,6 @@ Core for PHP website.
 [![Total Downloads](https://poser.pugx.org/devbr/wscore/downloads)](https://packagist.org/packages/devbr/wscore)
 [![Monthly Downloads](https://poser.pugx.org/devbr/wscore/d/monthly)](https://packagist.org/packages/devbr/wscore)
 
-
 # Install
 Open a terminal in root directory of your website and type:
 
@@ -61,7 +60,5 @@ You may also need to add these (minimum) rows in VirtualHost settings:
   </Directory>
 <VirtualHost/>
 ```
-
-
 
 <p align="center"><img src="http://dbrasil.tk/media/db64.png"></p>
