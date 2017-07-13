@@ -1,0 +1,32 @@
+{
+    "name": "devbr/website",
+    "description": "Basic & Simple Skeleton for PHP WebSites",
+    "keywords": ["framework","skeleton","core","php","web","site","server","side"],
+    "license": "MIT",
+    "type": "project",
+    "homepage": "http://dbrasil.tk/devbr/",
+    "authors": [{
+        "name": "Bill Rocha",
+        "email": "prbr@ymail.com"
+    }],
+    "config": {
+        "vendor-dir": ".php/Composer"
+    },
+    "require": {
+        "php": ">=5.6.28",
+        "devbr/router": "dev-master",
+        "devbr/database": "dev-master",
+        "devbr/html": "dev-master",
+        "devbr/tools": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ".php/",
+            "Config\\": ".php/Config/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd":  ["php index.php key:generate"],
+        "run":                      ["php index.php"]
+    }
+}
