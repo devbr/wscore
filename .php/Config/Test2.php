@@ -10,7 +10,7 @@ class Test2 extends \ConfigAbstract
     protected $protected = 'protected';
 
 
-    function __construct($params = '12345', $segundo = '890', $item = "vaca")
+    function __construct($params = '12345', $segundo = '890', $item = "vacaris")
     {
         parent::__construct();
 
