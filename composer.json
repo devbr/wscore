@@ -18,7 +18,7 @@
         "devbr/database": "dev-master",
         "devbr/html": "dev-master",
         "devbr/tools": "dev-master",
-        "devbr/pack-blog":"dev-master"
+        "devbr/pack-blog": "dev-master"
     },
     "autoload": {
         "psr-4": {
