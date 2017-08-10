@@ -27,6 +27,8 @@
         }
     },
     "scripts": {
+        "post-install-cmd":         ["php index.php install"],
+        "post-update-cmd":          ["php index.php update"],
         "post-create-project-cmd":  ["php index.php key:generate"],
         "run":                      ["php index.php"]
     }
