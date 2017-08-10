@@ -17,8 +17,10 @@
 //$test = App::this()->start();
 
 
-(include '.php/App.php')->start();
+(include '.php/App.php')->start(); //initialize Application
+(new Devbr\Router)->run();         //mount and running router
 
+/*
 
 //$teste = new Config\Test('item 1', 'item 2');
 
