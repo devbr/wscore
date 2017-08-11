@@ -18,6 +18,7 @@
         "devbr/database": "dev-master",
         "devbr/html": "dev-master",
         "devbr/tools": "dev-master",
+        "devbr/canvas": "dev-master",
         "devbr/pack-blog": "dev-master"
     },
     "autoload": {
