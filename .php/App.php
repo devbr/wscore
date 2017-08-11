@@ -11,7 +11,6 @@
  * @version   0.0.2
  * @link      http://dbrasil.tk/devbr
  */
-use Config;
 
 return new App;
 
@@ -383,7 +382,7 @@ class App
         //gerando header apropriado
         $ext = end((explode('.', $file)));
 
-        $mime = Config\Resource\Mimetype::getMimetype($ext);
+        $mime = \Config\Resource\Mimetype::getMimetype($ext);
         if (!$mime) {
             $mime = 'text/plain';
         }
