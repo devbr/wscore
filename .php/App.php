@@ -75,9 +75,9 @@ class App
         if ($this->webPath === false) {
             $base = $webPath != null && is_dir($webPath) ? $webPath : dirname(__DIR__);
 
-            $this->webPath = str_replace('\\', '/', strpos($webPath, 'phar://') !== false
-                        ? dirname(str_replace('phar://', '', $webPath)).'/'
-                        : $webPath.'/');
+            $this->webPath = str_replace('\\', '/', strpos($base, 'phar://') !== false
+                        ? dirname(str_replace('phar://', '', $base)).'/'
+                        : $base.'/');
         }
 
         // Is Phar?
